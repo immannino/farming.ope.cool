@@ -1,0 +1,28 @@
+ <svg width="100" height="50" viewBox="0 0 150 50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs>
+                      <variable id="numerator" type="text">98</variable>
+                      <variable id="denominator" type="text">98</variable>
+                      <color id="bgColor">#454545</color>
+                      <color id="borderColor">#606060</color>
+                      <color id="textColor">#ccff00</color>
+                      <color id="textOutlineColor">#000000</color>
+                      <color id="slashColor">#000000</color>
+                      <variable id="iconURL" type="url">https://static.wikia.nocookie.net/2007scape/images/f/fc/Farming_icon.png</variable>
+                    </defs>
+                  
+                    <path d="M 5 0 L 95 0 L 100 5 L 100 45 L 95 50 L 5 50 L 0 45 L 0 5 Z"
+                          fill="#454545" stroke="#606060" stroke-width="2"/>
+                  
+                    <image href="https://static.wikia.nocookie.net/2007scape/images/f/fc/Farming_icon.png"
+                           x="8" y="6" height="34" width="34"
+                           preserveAspectRatio="xMidYMid meet"/>
+                  
+                    <g font-family="monospace" font-size="14" text-anchor="middle">
+                      <text class="level-text" x="60" y="20.5" fill="#FFff00" v-if="farming">86</text>
+                  
+                      <line x1="90" y1="8" x2="50" y2="42" stroke="#000000" stroke-width="2"/>
+                
+                      <text class="level-text" x="82" y="42.5" fill="#FFff00">99</text>
+                    </g>
+                  
+                  </svg>
