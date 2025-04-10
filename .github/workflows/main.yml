@@ -21,7 +21,7 @@ jobs:
           deno-version: v2.x
       # Pick your own package manager and build script
       - run: deno run --allow-net --allow-read --allow-write fetch.ts
-      - run: mkdir dist
+      - run: rm -rf dist && mkdir dist
       - run: cp CNAME index.html skills.json farming.json ./dist
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
